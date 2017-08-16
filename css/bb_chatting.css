@@ -33,14 +33,14 @@ input{outline:none;}
 .list_card_my:active {background:#f7fcff;}
 .list_card_my:after{display:block; clear:both; content:'';}/*170807 추가*/
 .chk-in {display:inline-block; position:absolute; top:20px; left:8px;}
-.chat_talk_wrap {position:relative; margin-left:100px;}
+.chat_talk_wrap {position:relative; margin-left:60px;}
 .chat_talk_wrap a:after{content:""; display:block; clear:both;}/*170807 추가*/
 .chat_talk_msg {float:left; width:72%; padding-top:10px; padding-bottom:11px;}
 @media(max-width:320px){
     .chat_talk_msg {width:67%}/*170810 수정*/}
 .chat_talk_msg .chat_ptn_id {color:#373b3d; font-size:17px;}
 .chat_talk_msg .chat_ptn_id_mana {color:#dbaa00; font-size:17px;}
-.chat_talk_msg .chat_ptn_msg {display:block; display:-webkit-box; width:95%; max-height:15px; padding-top:5px; overflow:hidden; color:#f00; font-size:15px; text-overflow:ellipsis; -webkit-line-clamp:1; -webkit-box-orient:vertical;}
+.chat_talk_msg .chat_ptn_msg {display:block; display:-webkit-box; width:95%; max-height:15px; padding-top:5px; overflow:hidden; color:#787d80; font-size:15px; text-overflow:ellipsis; -webkit-line-clamp:1; -webkit-box-orient:vertical;}
 .chat_talk_msg .chat_ptn_msg_mana {display:block; display:-webkit-box; width:95%; max-height:35px; padding-top:5px; overflow:hidden; color:#004761; font-size:15px; text-overflow:ellipsis; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
 .chat_talk_time {float:right; width:70px; padding:5px 0;}/*170810 수정*/
 .chat_talk_time .chat_ptn_time {color:#939393; font-size:14px;}
